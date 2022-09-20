@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b743530b-cea8-4071-a37c-9afa50ae3c6d" name="Changes" comment="Lite bättre test som blir arga över onödig stubbning.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SomeDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UserGrej.java" afterDir="false" />
+    <list default="true" id="b743530b-cea8-4071-a37c-9afa50ae3c6d" name="Changes" comment="Test som kör grönt, rimligen eftersom min kod fungerar.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserGrejTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserGrejTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663572587505</updated>
-      <workItem from="1663572589067" duration="7200000" />
+      <workItem from="1663572589067" duration="7879000" />
     </task>
     <task id="LOCAL-00001" summary="En kanariefågel för att se om min Maven-fix funkar och att gitlab leker snällt.">
       <created>1663573667619</created>
@@ -103,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663594494800</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test som kör grönt, rimligen eftersom min kod fungerar.">
+      <created>1663595640650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663595640650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +129,7 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Test som går att köra men som misslyckas" />
     <MESSAGE value="Lite bättre test som blir arga över onödig stubbning." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lite bättre test som blir arga över onödig stubbning." />
+    <MESSAGE value="Test som kör grönt, rimligen eftersom min kod fungerar." />
+    <option name="LAST_COMMIT_MESSAGE" value="Test som kör grönt, rimligen eftersom min kod fungerar." />
   </component>
 </project>
