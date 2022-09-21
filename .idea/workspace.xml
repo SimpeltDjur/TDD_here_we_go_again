@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b743530b-cea8-4071-a37c-9afa50ae3c6d" name="Changes" comment="Snyggade till min token så att den blir som förväntad token.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TokenGrejTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TokenGrejTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="b743530b-cea8-4071-a37c-9afa50ae3c6d" name="Changes" comment="La till ett test för att kolla att min funktion kastar ett exception om använderen inte finns i data basen" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +125,7 @@
       <updated>1663572587505</updated>
       <workItem from="1663572589067" duration="7879000" />
       <workItem from="1663679241915" duration="798000" />
-      <workItem from="1663741690429" duration="17916000" />
+      <workItem from="1663741690429" duration="18272000" />
     </task>
     <task id="LOCAL-00001" summary="En kanariefågel för att se om min Maven-fix funkar och att gitlab leker snällt.">
       <created>1663573667619</created>
@@ -235,7 +232,13 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1663765375540</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="La till ett test för att kolla att min funktion kastar ett exception om använderen inte finns i data basen">
+      <created>1663766383133</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1663766383133</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +272,7 @@
     <MESSAGE value="JWT-token grejen, mockar en DB, ger TokenGrejen ett username kollar sedan den token jag får tillbaka om den har bakat in rätt roll." />
     <MESSAGE value="Tryckt alt-enter upprepade gånger och kastat in en slumpartad token så att jag får ett gult test." />
     <MESSAGE value="Snyggade till min token så att den blir som förväntad token." />
-    <option name="LAST_COMMIT_MESSAGE" value="Snyggade till min token så att den blir som förväntad token." />
+    <MESSAGE value="La till ett test för att kolla att min funktion kastar ett exception om använderen inte finns i data basen" />
+    <option name="LAST_COMMIT_MESSAGE" value="La till ett test för att kolla att min funktion kastar ett exception om använderen inte finns i data basen" />
   </component>
 </project>
