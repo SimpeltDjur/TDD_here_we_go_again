@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b743530b-cea8-4071-a37c-9afa50ae3c6d" name="Changes" comment="Test som kör grönt, rimligen eftersom min kod fungerar.">
+    <list default="true" id="b743530b-cea8-4071-a37c-9afa50ae3c6d" name="Changes" comment="kod tillfixad för första testet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserGrejTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserGrejTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserGrej.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserGrej.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <updated>1663572587505</updated>
       <workItem from="1663572589067" duration="7879000" />
       <workItem from="1663679241915" duration="798000" />
-      <workItem from="1663741690429" duration="2182000" />
+      <workItem from="1663741690429" duration="3213000" />
     </task>
     <task id="LOCAL-00001" summary="En kanariefågel för att se om min Maven-fix funkar och att gitlab leker snällt.">
       <created>1663573667619</created>
@@ -130,7 +130,13 @@
       <option name="project" value="LOCAL" />
       <updated>1663595640650</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Test för första delen av egenskap 2, att inloggen returnerar en token i det här fallet bara en base64 sträng av användarnamnet.">
+      <created>1663744185678</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1663744185678</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +160,8 @@
     <MESSAGE value="Test som går att köra men som misslyckas" />
     <MESSAGE value="Lite bättre test som blir arga över onödig stubbning." />
     <MESSAGE value="Test som kör grönt, rimligen eftersom min kod fungerar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test som kör grönt, rimligen eftersom min kod fungerar." />
+    <MESSAGE value="Test för första delen av egenskap 2, att inloggen returnerar en token i det här fallet bara en base64 sträng av användarnamnet." />
+    <MESSAGE value="kod tillfixad för första testet" />
+    <option name="LAST_COMMIT_MESSAGE" value="kod tillfixad för första testet" />
   </component>
 </project>
