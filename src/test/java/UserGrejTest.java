@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
@@ -54,10 +56,11 @@ public class UserGrejTest {
 //
 //    }
 
-    @Test
-    public void inlogg_With_tooken(){
+    @ParameterizedTest
+    @CsvSource(value = {"anna, losen", "berit, 123456"})
+    public void inlogg_With_tooken(String userName, String passWord){
 
-        String orginal = "anna";
+        String orginal = userName;
         byte[] orginalAsBytes = orginal.getBytes();
         byte[] orginalAsBase64 = Base64.getEncoder().encode(orginalAsBytes);
         String byte64String = new String(orginalAsBase64);
@@ -65,11 +68,8 @@ public class UserGrejTest {
 
         when(someDB.getUsers()).thenReturn(map);
 
-        var token = userGrej.loggIn("anna", "losen");
-        // med var kan jag testköra mitt test
-
+        var token = userGrej.loggIn(userName, passWord);
         Assertions.assertEquals(expected, token);
-
 
 
     }

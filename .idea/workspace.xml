@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b743530b-cea8-4071-a37c-9afa50ae3c6d" name="Changes" comment="kod tillfixad för första testet">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserGrej.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserGrej.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserGrejTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserGrejTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,7 @@
       <updated>1663572587505</updated>
       <workItem from="1663572589067" duration="7879000" />
       <workItem from="1663679241915" duration="798000" />
-      <workItem from="1663741690429" duration="3213000" />
+      <workItem from="1663741690429" duration="3570000" />
     </task>
     <task id="LOCAL-00001" summary="En kanariefågel för att se om min Maven-fix funkar och att gitlab leker snällt.">
       <created>1663573667619</created>
@@ -136,7 +135,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1663744185678</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="kod tillfixad för första testet">
+      <created>1663744975971</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1663744975971</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
