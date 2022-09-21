@@ -31,4 +31,12 @@ public class UserGrej {
         }
 
     }
+
+    public boolean tokenIsOk(String token) {
+        byte[] backAsBase64Bytes = token.getBytes();
+        byte [] backAsBytes = Base64.getDecoder().decode(backAsBase64Bytes);
+        String userName = new String(backAsBytes);
+        var users = someDB.getUsers();
+        return users.containsKey(userName);
+    }
 }

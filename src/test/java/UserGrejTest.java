@@ -82,15 +82,20 @@ public class UserGrejTest {
         byte[] originalAsBase64 = Base64.getEncoder().encode(originalAsBytes);
         String token = new String(originalAsBase64);
 
-        Assertions.assertTrue(tokenIsOk(token));
+        when(someDB.getUsers()).thenReturn(map);
+
+        Assertions.assertTrue(userGrej.tokenIsOk(token));
 
     }
+
 
     @ParameterizedTest
     @CsvSource(value = {"Rage", "Against", "The", "Machine"})
     public void token_Not_Valid (String token) throws Exception {
 
-        Assertions.assertTrue(tokenIsOk(token));
+        when(someDB.getUsers()).thenReturn(map);
+
+        Assertions.assertFalse(userGrej.tokenIsOk(token));
 
     }
 

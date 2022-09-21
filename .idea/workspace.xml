@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b743530b-cea8-4071-a37c-9afa50ae3c6d" name="Changes" comment="Exception tillagt i koden så att testet blir grön, snyggade oxå upp lite guff som IJ klagade på, mest pedagogiska kvarlevor som gjorde koden längre.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b743530b-cea8-4071-a37c-9afa50ae3c6d" name="Changes" comment="Tester för att kolla om metoden som kollar om en token är giltig gör vad den ska.">
       <change beforePath="$PROJECT_DIR$/src/main/java/UserGrej.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserGrej.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UserGrejTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserGrejTest.java" afterDir="false" />
     </list>
@@ -130,7 +129,7 @@
       <updated>1663572587505</updated>
       <workItem from="1663572589067" duration="7879000" />
       <workItem from="1663679241915" duration="798000" />
-      <workItem from="1663741690429" duration="6597000" />
+      <workItem from="1663741690429" duration="7442000" />
     </task>
     <task id="LOCAL-00001" summary="En kanariefågel för att se om min Maven-fix funkar och att gitlab leker snällt.">
       <created>1663573667619</created>
@@ -189,7 +188,19 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1663748298803</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="Exception tillagt i koden så att testet blir grön, snyggade oxå upp lite guff som IJ klagade på, mest pedagogiska kvarlevor som gjorde koden längre.">
+      <created>1663748663818</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1663748663818</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Tester för att kolla om metoden som kollar om en token är giltig gör vad den ska.">
+      <created>1663749397394</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1663749397394</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +229,7 @@
     <MESSAGE value="Förbättrade testet till ett parameteriserat test :)" />
     <MESSAGE value="Test som förväntar sig ett exception när det är något fel på inloggningen." />
     <MESSAGE value="Exception tillagt i koden så att testet blir grön, snyggade oxå upp lite guff som IJ klagade på, mest pedagogiska kvarlevor som gjorde koden längre." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception tillagt i koden så att testet blir grön, snyggade oxå upp lite guff som IJ klagade på, mest pedagogiska kvarlevor som gjorde koden längre." />
+    <MESSAGE value="Tester för att kolla om metoden som kollar om en token är giltig gör vad den ska." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tester för att kolla om metoden som kollar om en token är giltig gör vad den ska." />
   </component>
 </project>
