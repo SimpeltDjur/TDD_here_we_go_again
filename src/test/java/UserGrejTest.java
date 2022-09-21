@@ -1,18 +1,12 @@
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.security.Keys;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-
-import java.security.Key;
 import java.util.Base64;
 import java.util.HashMap;
-import java.util.Map;
 
 import static org.mockito.Mockito.when;
 
@@ -58,13 +52,11 @@ public class UserGrejTest {
 
     @ParameterizedTest
     @CsvSource(value = {"anna, losen", "berit, 123456"})
-    public void inlogg_With_Tooken(String userName, String passWord){
+    public void inlogg_With_Tooken(String userName, String passWord) throws Exception {
 
-        String orginal = userName;
-        byte[] orginalAsBytes = orginal.getBytes();
-        byte[] orginalAsBase64 = Base64.getEncoder().encode(orginalAsBytes);
-        String byte64String = new String(orginalAsBase64);
-        String expected = byte64String; // helt onödigt alias men det gör det lättare för mig att komma ihåg vad som är vad.
+        byte[] originalAsBytes = userName.getBytes();
+        byte[] originalAsBase64 = Base64.getEncoder().encode(originalAsBytes);
+        String expected = new String(originalAsBase64); // helt onödigt alias men det gör det lättare för mig att komma ihåg vad som är vad.
 
         when(someDB.getUsers()).thenReturn(map);
 

@@ -9,24 +9,25 @@ public class UserGrej {
         this.someDB = someDB;
     }
 
-    public String loggIn(String userName, String passWord) {
+    public String loggIn(String userName, String passWord) throws Exception {
 
         HashMap<String, String> userMap = someDB.getUsers();
 
-        String orginal = userName;
-        byte[] orginalAsBytes = orginal.getBytes();
-        byte[] orginalAsBase64 = Base64.getEncoder().encode(orginalAsBytes);
-        String byte64String = new String(orginalAsBase64);
+        byte[] originalAsBytes = userName.getBytes();
+        byte[] originalAsBase64 = Base64.getEncoder().encode(originalAsBytes);
+        String byte64String = new String(originalAsBase64);
 
 
 
         boolean legit = userMap.containsKey(userName) && Objects.equals(userMap.get(userName), passWord);
 
+
+
         if (legit){
             return byte64String;
         }
         else {
-            return "Bajs";
+            throw new Exception("You shall not pass!");
         }
 
     }
