@@ -74,20 +74,24 @@ public class UserGrejTest {
 
     }
 
-//    @ParameterizedTest
-//    @CsvSource(value = {"anna, losen", "berit, 123456"})
-//    public void is_Token_Valid (String userName, String passWord) throws Exception {
-//
-//        byte[] originalAsBytes = userName.getBytes();
-//        byte[] originalAsBase64 = Base64.getEncoder().encode(originalAsBytes);
-//        String expected = new String(originalAsBase64); // helt onödigt alias men det gör det lättare för mig att komma ihåg vad som är vad.
-//
-//        when(someDB.getUsers()).thenReturn(map);
-//
-//        var token = userGrej.loggIn(userName, passWord);
-//        Assertions.assertEquals(expected, token);
-//
-//    }
+    @ParameterizedTest
+    @CsvSource(value = {"anna", "berit", "kalle"})
+    public void token_Valid (String stingToToken) {
 
+        byte[] originalAsBytes = stingToToken.getBytes();
+        byte[] originalAsBase64 = Base64.getEncoder().encode(originalAsBytes);
+        String token = new String(originalAsBase64);
+
+        Assertions.assertTrue(tokenIsOk(token));
+
+    }
+
+    @ParameterizedTest
+    @CsvSource(value = {"Rage", "Against", "The", "Machine"})
+    public void token_Not_Valid (String token) throws Exception {
+
+        Assertions.assertTrue(tokenIsOk(token));
+
+    }
 
 }
