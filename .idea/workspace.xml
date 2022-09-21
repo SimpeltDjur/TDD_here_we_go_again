@@ -126,7 +126,7 @@
       <updated>1663572587505</updated>
       <workItem from="1663572589067" duration="7879000" />
       <workItem from="1663679241915" duration="798000" />
-      <workItem from="1663741690429" duration="7768000" />
+      <workItem from="1663741690429" duration="8417000" />
     </task>
     <task id="LOCAL-00001" summary="En kanariefågel för att se om min Maven-fix funkar och att gitlab leker snällt.">
       <created>1663573667619</created>
@@ -203,7 +203,13 @@
       <option name="presentableId" value="LOCAL−00012" />
       <updated>1663749809570</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL−00013" summary="Okej, kod implementerad och testet som skulle asserta false är även rättat så att det faktiskt assertar false och inte true som jag hade råkat skriva först...">
+      <created>1663750387701</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1663750387701</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
