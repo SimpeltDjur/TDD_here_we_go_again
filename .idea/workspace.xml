@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b743530b-cea8-4071-a37c-9afa50ae3c6d" name="Changes" comment="Tryckt alt-enter upprepade gånger och kastat in en slumpartad token så att jag får ett gult test.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/TokenGrej.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TokenGrej.java" afterDir="false" />
+    <list default="true" id="b743530b-cea8-4071-a37c-9afa50ae3c6d" name="Changes" comment="Snyggade till min token så att den blir som förväntad token.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TokenGrejTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TokenGrejTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TokenGrejTest.pestTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_here_we_go_again" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TokenGrejTest" />
+      <option name="METHOD_NAME" value="pestTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenGrejTest.pestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_here_we_go_again" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TokenGrejTest" />
+      <option name="METHOD_NAME" value="pestTest(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TokenGrejTest.testTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_here_we_go_again" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,26 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserGrejTest.inlogg_That_Throws" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD_here_we_go_again" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserGrejTest" />
-      <option name="METHOD_NAME" value="inlogg_That_Throws(java.lang.String,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserGrejTest.inlogg_With_Tooken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD_here_we_go_again" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserGrejTest" />
-      <option name="METHOD_NAME" value="inlogg_With_Tooken(java.lang.String,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,10 +111,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TokenGrejTest" />
+        <item itemvalue="JUnit.TokenGrejTest.pestTest (1)" />
+        <item itemvalue="JUnit.TokenGrejTest.pestTest" />
         <item itemvalue="JUnit.TokenGrejTest.testTest" />
         <item itemvalue="JUnit.UserGrejTest" />
-        <item itemvalue="JUnit.UserGrejTest.inlogg_With_Tooken" />
-        <item itemvalue="JUnit.UserGrejTest.inlogg_That_Throws" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +128,7 @@
       <updated>1663572587505</updated>
       <workItem from="1663572589067" duration="7879000" />
       <workItem from="1663679241915" duration="798000" />
-      <workItem from="1663741690429" duration="17149000" />
+      <workItem from="1663741690429" duration="17916000" />
     </task>
     <task id="LOCAL-00001" summary="En kanariefågel för att se om min Maven-fix funkar och att gitlab leker snällt.">
       <created>1663573667619</created>
@@ -228,7 +229,13 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1663765067797</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="Snyggade till min token så att den blir som förväntad token.">
+      <created>1663765375540</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1663765375540</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,17 +268,7 @@
     <MESSAGE value="Okej, kod implementerad och testet som skulle asserta false är även rättat så att det faktiskt assertar false och inte true som jag hade råkat skriva först..." />
     <MESSAGE value="JWT-token grejen, mockar en DB, ger TokenGrejen ett username kollar sedan den token jag får tillbaka om den har bakat in rätt roll." />
     <MESSAGE value="Tryckt alt-enter upprepade gånger och kastat in en slumpartad token så att jag får ett gult test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tryckt alt-enter upprepade gånger och kastat in en slumpartad token så att jag får ett gult test." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TokenGrejTest.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Snyggade till min token så att den blir som förväntad token." />
+    <option name="LAST_COMMIT_MESSAGE" value="Snyggade till min token så att den blir som förväntad token." />
   </component>
 </project>

@@ -13,7 +13,7 @@ public class TokenGrej {
         this.someDB = someDB;
     }
 
-    public String getToken(String username) {
+    public String getToken(String username)  {
 
         Key key = Keys.hmacShaKeyFor("AllWorkAndNoPlayMakesMagnusADullBoy".getBytes());
 
