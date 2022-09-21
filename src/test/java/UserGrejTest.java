@@ -58,7 +58,7 @@ public class UserGrejTest {
 
     @ParameterizedTest
     @CsvSource(value = {"anna, losen", "berit, 123456"})
-    public void inlogg_With_tooken(String userName, String passWord){
+    public void inlogg_With_Tooken(String userName, String passWord){
 
         String orginal = userName;
         byte[] orginalAsBytes = orginal.getBytes();
@@ -73,4 +73,17 @@ public class UserGrejTest {
 
 
     }
+    @ParameterizedTest
+    @CsvSource(value = {"anna, LösenFel", "NamnFel, 123456", "Pelle, AlltFel", "anna, 123456"})
+    public void inlogg_That_Throws(String userName, String passWord){
+
+        when(someDB.getUsers()).thenReturn(map);
+
+        Assertions.assertThrows(Exception.class, () -> userGrej.loggIn(userName, passWord));
+
+
+    }
+
+
+
 }
