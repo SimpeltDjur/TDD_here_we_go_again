@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b743530b-cea8-4071-a37c-9afa50ae3c6d" name="Changes" comment="Test som kör grönt, rimligen eftersom min kod fungerar.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserGrejTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserGrejTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -69,9 +68,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserGrejTest.inlogg_With_tooken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_here_we_go_again" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserGrejTest" />
+      <option name="METHOD_NAME" value="inlogg_With_tooken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserGrejTest" />
+        <item itemvalue="JUnit.UserGrejTest.inlogg_With_tooken" />
         <item itemvalue="JUnit.PestTest.ettTestTest" />
       </list>
     </recent_temporary>
@@ -85,6 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1663572587505</updated>
       <workItem from="1663572589067" duration="7879000" />
+      <workItem from="1663679241915" duration="798000" />
+      <workItem from="1663741690429" duration="2182000" />
     </task>
     <task id="LOCAL-00001" summary="En kanariefågel för att se om min Maven-fix funkar och att gitlab leker snällt.">
       <created>1663573667619</created>
@@ -123,6 +146,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="En kanariefågel för att se om min Maven-fix funkar och att gitlab leker snällt." />
