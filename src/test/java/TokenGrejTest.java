@@ -42,7 +42,7 @@ public class TokenGrejTest {
                 .getBody()
                 .get("Roll", String.class);
 
-        Assertions.assertEquals(roll, expectedRoll);
+        Assertions.assertEquals(expectedRoll, roll);
 
 
 
