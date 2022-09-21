@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b743530b-cea8-4071-a37c-9afa50ae3c6d" name="Changes" comment="JWT-token grejen, mockar en DB, ger TokenGrejen ett username kollar sedan den token jag får tillbaka om den har bakat in rätt roll.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TokenGrej.java" afterDir="false" />
+    <list default="true" id="b743530b-cea8-4071-a37c-9afa50ae3c6d" name="Changes" comment="Tryckt alt-enter upprepade gånger och kastat in en slumpartad token så att jag får ett gult test.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/TokenGrej.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TokenGrej.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,7 @@
       <updated>1663572587505</updated>
       <workItem from="1663572589067" duration="7879000" />
       <workItem from="1663679241915" duration="798000" />
-      <workItem from="1663741690429" duration="16615000" />
+      <workItem from="1663741690429" duration="17149000" />
     </task>
     <task id="LOCAL-00001" summary="En kanariefågel för att se om min Maven-fix funkar och att gitlab leker snällt.">
       <created>1663573667619</created>
@@ -222,7 +222,13 @@
       <option name="presentableId" value="LOCAL−00015" />
       <updated>1663764612554</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL−00016" summary="Tryckt alt-enter upprepade gånger och kastat in en slumpartad token så att jag får ett gult test.">
+      <created>1663765067797</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1663765067797</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +260,18 @@
     <MESSAGE value="Tester för att kolla om metoden som kollar om en token är giltig gör vad den ska." />
     <MESSAGE value="Okej, kod implementerad och testet som skulle asserta false är även rättat så att det faktiskt assertar false och inte true som jag hade råkat skriva först..." />
     <MESSAGE value="JWT-token grejen, mockar en DB, ger TokenGrejen ett username kollar sedan den token jag får tillbaka om den har bakat in rätt roll." />
-    <option name="LAST_COMMIT_MESSAGE" value="JWT-token grejen, mockar en DB, ger TokenGrejen ett username kollar sedan den token jag får tillbaka om den har bakat in rätt roll." />
+    <MESSAGE value="Tryckt alt-enter upprepade gånger och kastat in en slumpartad token så att jag får ett gult test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tryckt alt-enter upprepade gånger och kastat in en slumpartad token så att jag får ett gult test." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TokenGrejTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
